@@ -1,0 +1,26 @@
+{
+    "name": "atris314/laravel-blog-module",
+    "description": "A reusable blog module for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\Blog\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Blog\\Tests\\": "tests/"
+        }
+    },
+
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    }
+}
