@@ -19,8 +19,6 @@
         }
     },
 
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
             "Modules\\Blog\\Tests\\": ""
