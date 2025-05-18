@@ -24,16 +24,16 @@ class BlogServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../config/blog.php' => config_path('blog.php'),
-        ], 'blog-config');
+            __DIR__ . '/../../config/blog.php' => config_path('blog.php'),
+        ]);
 
         $this->publishes([
-            __DIR__ . '/../resources/views' => resource_path('views/vendor/blog'),
-        ], 'blog-views');
+            __DIR__ . '/../../resources/views' => resource_path('views/vendor/blog'),
+        ]);
 
         $this->publishes([
-            __DIR__ . '/../database/migrations' => database_path('migrations'),
-        ], 'blog-migrations');
+            __DIR__ . '/../../database/migrations' => database_path('migrations'),
+        ]);
 
         $this->registerCommands();
         $this->registerCommandSchedules();
