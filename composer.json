@@ -3,6 +3,10 @@
     "description": "A reusable blog module for Laravel.",
     "type": "library",
     "license": "MIT",
+    "authors": [{
+            "name": "farinaz haghighi",
+            "email": "farinaz.haghighi314@gmail.com"
+    }],
     "autoload": {
         "psr-4": {
             "YourVendor\\Blog\\": ""
@@ -18,9 +22,8 @@
             "Modules\\Blog\\Tests\\": "tests/"
         }
     },
-
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^9.0|^10.0|^11.0"
+        "php": "^8.2",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
     }
 }
