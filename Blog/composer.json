@@ -2,23 +2,24 @@
     "name": "atris314/laravel-blog-module",
     "description": "A reusable blog module for Laravel.",
     "type": "library",
-    "license": "MIT",
     "authors": [{
             "name": "farinaz haghighi",
             "email": "farinaz.haghighi314@gmail.com"
     }],
     "autoload": {
         "psr-4": {
-            "atris314\\Blog\\": ""
+            "Modules\\Blog\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Modules\\Blog\\app\\Providers\\BlogServiceProvider"
+                "Modules\\Blog\\Providers\\BlogServiceProvider"
             ]
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
             "Modules\\Blog\\Tests\\": ""
