@@ -14,12 +14,14 @@
     },
     "extra": {
         "laravel": {
-            "providers": []
+            "providers": [
+                "Modules\\Blog\\app\\Providers\\BlogServiceProvider"
+            ]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Modules\\Blog\\Tests\\": "tests/"
+            "Modules\\Blog\\Tests\\": ""
         }
     },
     "require": {
