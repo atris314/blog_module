@@ -1,0 +1,1 @@
+composer require atris314/laravel-blog-module:dev-main --prefer-source

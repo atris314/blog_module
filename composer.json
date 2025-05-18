@@ -9,7 +9,7 @@
     }],
     "autoload": {
         "psr-4": {
-            "YourVendor\\Blog\\": ""
+            "atris314\\Blog\\": ""
         }
     },
     "extra": {
