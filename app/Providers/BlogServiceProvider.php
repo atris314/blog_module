@@ -6,13 +6,11 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Modules\Blog\app\Providers\EventServiceProvider;
 use Modules\Blog\app\Providers\RouteServiceProvider;
-use Nwidart\Modules\Traits\PathNamespace;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 
 class BlogServiceProvider extends ServiceProvider
 {
-    use PathNamespace;
 
     protected string $name = 'Blog';
 
