@@ -1,35 +1,25 @@
 {
     "name": "atris314/laravel-blog-module",
     "description": "A reusable blog module for Laravel.",
-    "type": "laravel module",
-    "authors": [{
+    "type": "laravel-module",
+    "authors": [
+        {
             "name": "farinaz haghighi",
             "email": "farinaz.haghighi314@gmail.com"
-    }],
-    "autoload": {
-        "psr-4": {
-            "Modules\\Blog\\": ""
         }
-    },
+    ],
     "extra": {
         "laravel": {
-            "dont-discover": [],
             "providers": [],
-            "aliases": {}
-        },
-        "laravel-modules": {
-            "path": "Modules"
+            "aliases": {
+
+            }
         }
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
-            "Modules\\Blog\\Tests\\": ""
+            "Modules\\Base\\": ""
         }
-    },
-    "require": {
-        "php": "^8.2",
-        "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    }
 }
+
