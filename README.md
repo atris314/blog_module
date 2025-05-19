@@ -1,9 +1,14 @@
+<p align="center">
+
 ##Laravel Blog Module 
-version tag : <a href="https://packagist.org/packages/atris314/laravel-blog-module">v1.0.0</a>
+
+</p>
+<a href="https://packagist.org/packages/atris314/laravel-blog-module">v1.0.0</a>
 <p align="center">
 <a href="https://github.com/atris314"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
 ##👩‍💻 Made by
 
 Developed with ❤️ by Farinaz Haghighi
