@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Blog\app\Http\Controllers;
+namespace Modules\Blog\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Cviebrock\EloquentSluggable\Services\SlugService;
 use Exception;
 use Illuminate\Http\Request;
-use Modules\Blog\app\Models\CategoryBlog;
+use Modules\Blog\Models\CategoryBlog;
 
 class CategoryBlogController extends Controller
 {

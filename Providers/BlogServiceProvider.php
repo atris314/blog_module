@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\Blog\app\Providers;
+namespace Modules\Blog\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use Modules\Blog\app\Providers\EventServiceProvider;
-use Modules\Blog\app\Providers\RouteServiceProvider;
+use Modules\Blog\Providers\EventServiceProvider;
+use Modules\Blog\Providers\RouteServiceProvider;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 

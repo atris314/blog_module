@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Blog\app\Models;
+namespace Modules\Blog\Models;
 
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Modules\Blog\app\Models\CategoryBlog;
-use Modules\Blog\app\Models\Tag;
+use Modules\Blog\Models\CategoryBlog;
+use Modules\Blog\Models\Tag;
 
 // use Modules\Blog\Database\Factories\BlogFactory;
 

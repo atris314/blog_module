@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Blog\app\Models;
+namespace Modules\Blog\Models;
 
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Modules\Blog\Database\Factories\CategoryBlogFactory;
+// use Modules\Blog\Database\Factories\TagBlogFactory;
 
-class CategoryBlog extends Model
+class Tag extends Model
 {
     use HasFactory;
     use Sluggable;
@@ -16,13 +16,12 @@ class CategoryBlog extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = ['title','slug','meta_title','meta_description'];
+    protected $fillable = [];
 
-     protected static function newFactory(): CategoryBlogFactory
+     protected static function newFactory(): TagBlogFactory
      {
-          return CategoryBlogFactory::new();
+          return TagBlogFactory::new();
      }
-
 
 
     public function Sluggable() : array
@@ -33,7 +32,6 @@ class CategoryBlog extends Model
             ]
         ];
     }
-
     public function getRouteKeyName()
     {
         return 'slug';
