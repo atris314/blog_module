@@ -1,6 +1,6 @@
 <?php
 
-namespace Blog\app\Providers;
+namespace Modules\Blog\app\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -78,6 +78,13 @@ class BlogServiceProvider extends ServiceProvider
      */
     protected function registerConfig(): void
     {
+        $this->publishes([
+            module_path($this->moduleName, 'Config/config.php') => config_path($this->moduleNameLower . '.php'),
+        ], 'config');
+        $this->mergeConfigFrom(
+            module_path($this->moduleName, 'Config/config.php'), $this->moduleNameLower
+        );
+
         $configPath = module_path($this->name, config('modules.paths.generator.config.path'));
 
         if (is_dir($configPath)) {
