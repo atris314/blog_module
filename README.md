@@ -1,6 +1,6 @@
 <p align="center">
 
-##Laravel Blog Module 
+#Laravel Blog Module 
 
 </p>
 <a href="https://packagist.org/packages/atris314/laravel-blog-module">v1.0.0</a>
@@ -9,14 +9,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-##👩‍💻 Made by
+#👩‍💻 Made by
 
 Developed with ❤️ by Farinaz Haghighi
 If you found this package useful, feel free to ⭐️ the repo and share it with others!
 
 A reusable blog module for the Laravel framework, built using the ```nwidart/laravel-modules``` package.
 
-##📦 Installation
+#📦 Installation
 To install this module, follow the steps below in order:
 
 1. Install nwidart/laravel-modules
@@ -37,5 +37,5 @@ composer require atris314/laravel-blog-module
 ```
 After installation, the module will be placed inside the ``` Modules/Blog ``` directory and automatically registered.
 
-##🙌 Contributing
+#🙌 Contributing
 Feel free to open issues, submit pull requests, or suggest improvements.Contributions are always welcome! 💛
