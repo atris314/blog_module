@@ -1,5 +1,5 @@
 {
-    "name": "atris314/blog",
+    "name": "atris314/blog-module",
     "description": "A reusable blog module for Laravel.",
     "type": "laravel-module",
     "license": "MIT",
