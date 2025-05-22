@@ -1,7 +1,7 @@
 {
     "name": "atris314/laravel-blog-module",
     "description": "A reusable blog module for Laravel.",
-    "type": "library",
+    "type": "laravel-module",
     "license": "MIT",
     "authors": [
         {
